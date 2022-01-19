@@ -21,7 +21,7 @@ public class ServletBasic extends HttpServlet {
 		response.setContentType("text/html; charset=UTF-8");
 		PrintWriter out = response.getWriter();
 		out.println("<body>");
-		out.println("오 이게 서블릿야?");
+		out.println("오 이게 서블릿이야?");
 		out.println("</body>");
 		
 	}

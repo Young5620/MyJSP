@@ -9,6 +9,7 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
   <servlet>
   	<servlet-name>basic</servlet-name>
   	<servlet-class>kr.co.koo.ServletBasic</servlet-class>
@@ -17,4 +18,5 @@
   	<servlet-name>basic</servlet-name>
   	<url-pattern>/peach</url-pattern>
   </servlet-mapping>
+
 </web-app>
