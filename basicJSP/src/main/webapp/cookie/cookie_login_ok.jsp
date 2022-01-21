@@ -16,7 +16,6 @@
 		Cookie userid = new Cookie("user_id",id);
 		userid.setMaxAge(30);
 		response.addCookie(userid);
-		response.sendRedirect("cookie_welcome.jsp");
 		
 		//idCheck에 대한 코드 추가
 		if(idCheck !=null){
@@ -24,6 +23,8 @@
 			check.setMaxAge(1800);
 			response.addCookie(check);
 		}
+		
+		response.sendRedirect("cookie_welcome.jsp");
 	}
 	else {
 		//로그인실패

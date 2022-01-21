@@ -18,6 +18,7 @@
 			if(idcheck[i].getName().equals("idCheck")){
 				id = idcheck[i].getValue();
 			}
+			System.out.println(idcheck[i].getName());
 		}
 	}
 	

@@ -14,6 +14,7 @@
 			if(c.getName().equals("user_id")){
 				id = c.getValue();
 			}
+			System.out.println(c.getName());
 		}
 	}
 	else {
